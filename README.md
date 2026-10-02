@@ -107,7 +107,7 @@ These are conclusions about the methods and their behavior, drawn from building 
 
 ## Status and limitations
 
-The original design (see [CLAUDE.md](CLAUDE.md)) is broader than what is built. Not yet implemented:
+Not yet implemented:
 
 - Black-Litterman: the API accepts `views`, but they are not applied to the returns.
 - True risk parity: the response currently uses inverse-volatility weights as an approximation.
