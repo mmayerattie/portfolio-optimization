@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #1e1e1e transparent;
+  }
+
+  body {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    background-color: #09090b;
+    color: #e4e4e7;
+  }
+}
+
+@layer utilities {
+  .font-data {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
