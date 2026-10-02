@@ -55,7 +55,6 @@ portfolio_optimization/
 │       ├── types/ utils/       # TypeScript types, formatters, validators
 │       └── App.tsx
 ├── pytest.ini
-└── CLAUDE.md                   # Original design spec (see "Status" below)
 ```
 
 ## Running it
